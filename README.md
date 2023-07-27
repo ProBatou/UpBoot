@@ -1,4 +1,4 @@
-# UpBoost
+# UpBoot
 # Script de configuration de nom de machine et mise à jour
 
 Ce script Bash est conçu pour faciliter la configuration du nom de la machine, effectuer les mises à jour du système et redémarrer la machine. Assurez-vous d'exécuter ce script avec des privilèges d'administration.
@@ -7,8 +7,8 @@ Ce script Bash est conçu pour faciliter la configuration du nom de la machine, 
 
 1. Téléchargez le script sur votre machine.
 2. Ouvrez un terminal et accédez au répertoire où se trouve le script.
-3. Donnez les permissions d'exécution au script : `chmod +x upboost.sh`
-4. Exécutez le script : `./upboost.sh`
+3. Donnez les permissions d'exécution au script : `chmod +x upboot.sh`
+4. Exécutez le script : `./upboot.sh`
 5. Suivez les instructions du script pour saisir le nouveau nom de la machine.
 6. Le script mettra à jour le fichier `/etc/hosts`, configurera le nouveau nom de machine avec `hostnamectl`, régénérera les identifiants de la machine pour DBus, demandera le changement de mot de passe, et effectuera une mise à jour complète du système.
 7. Une fois les étapes ci-dessus terminées, la machine redémarrera automatiquement.
